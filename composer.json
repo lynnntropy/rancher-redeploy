@@ -19,5 +19,8 @@
     },
     "require-dev": {
         "symfony/var-dumper": "^4.3"
-    }
+    },
+    "bin": [
+        "rancher-redeploy"
+    ]
 }
