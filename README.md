@@ -5,6 +5,8 @@
 ## Requirements
 
 - PHP 7.3
+- [Rancher CLI](https://rancher.com/docs/rancher/v2.x/en/cli/)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
 ## Installation
 
