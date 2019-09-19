@@ -1,4 +1,3 @@
-#!/usr/bin/env php
 <?php
 
 if (file_exists(__DIR__.'/../../autoload.php')) {
