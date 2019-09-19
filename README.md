@@ -8,7 +8,7 @@
 
 ## Installation
 
-Simply download the `.phar` file of the latest release. You can directly execute this file like so:
+Simply download the `.phar` file of the latest [release](https://github.com/omegavesko/rancher-redeploy/releases). You can directly execute this file like so:
 
 ```bash
 ./rancher-redeploy.phar
