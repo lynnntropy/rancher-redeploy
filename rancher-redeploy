@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use App\Command\RedeployCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application('rancher-redeploy');
+
+$application->add(new RedeployCommand());
+$application->setDefaultCommand('rancher-redeploy', true);
+
+/** @noinspection PhpUnhandledExceptionInspection */
+$application->run();

@@ -1,0 +1,23 @@
+{
+    "name": "omegavesko/rancher-redeploy",
+    "description": "A simple CLI tool to make redeploying deployments on Rancher easier.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Veselin Romić",
+            "email": "omegavesko@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.3"
+    }
+}
